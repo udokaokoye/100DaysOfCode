@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+ 
+
+.hide{
+    display: none;
+}
+#message{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    &:focus{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+}
+.butt-send{
+    font-size: 18px;
+    width: 300px;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    &:hover{
+        background-color: white ;
+        color: #005C97;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+.main{
+    border-top: 1px solid rgb(177, 177, 177);
+    background: #005C97;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    height: 100vh;
+    color: white;
+}
+.main-message{
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.main-messages{
+    border-top: 1px solid rgb(177, 177, 177);
+    background: #005C97;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: auto;
+color: white;
+}
+.links{
+    margin-right: 100px ;
+    &:hover{
+        color: red;
+    }
+}
+
+.butt-copy, .butt-what, .butt-fb, .butt-ig{
+    font-size: 18px;
+    width: 300px;
+    border-radius: 6px;
+    padding: 15px;
+}
+.butt-copy{
+    color: white;
+    background: transparent;
+    &:hover{
+        background-color: white;
+        color: #005C97;
+        transition: all 0.3s ease;
+    }
+}
+.butt-ig{
+    background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+&:hover{
+    background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);
+    transition: all 0.3s ease-in-out;
+}
+}
+
+.butt-what{
+    background: #1EBEA4;
+    background: linear-gradient(to left, #1EBEA4, rgb(2, 180, 94), rgb(1, 148, 77));
+    &:hover{
+        background: linear-gradient(to right, #1EBEA4, rgb(2, 180, 94), rgb(1, 148, 77));
+    }
+    
+}
+
+.butt-fb{
+    background: linear-gradient(to left, #037EFF, #0090FF, #00AFFE);
+    &:hover{
+        background: linear-gradient(to right, #037EFF, #0090FF, #00AFFE);
+    }
+}
+
+.view-message{
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    .message-title{
+        margin-left: 10px;
+    }
+    .main-message{
+        h5{
+            width: 100%;
+        }
+    }
+}
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 10px;
+    
+}
+
+@media only screen and (max-width: 474px) {
+    .welcome{
+        font-size: 42px;
+    }
+
+    .share-det{
+        font-size: 17px
+    }
+    .res{
+        font-size: 35px;
+    }
+    .main-message{
+        h5{
+            font-size: 16px;
+        }
+    }
+
+    .message-title{
+        h3{
+            font-size: 20px;
+        }
+    }
+
+    .details{
+        p{
+            font-size: 15px;
+        }
+    }
+    .footer{
+        h5{
+            font-size: 15px;
+        }
+    }
+    .send-to{
+        font-size: 27px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .welcome{
+        font-size: 32px;
+    }
+
+    .share-det{
+        font-size: 12px
+    }
+  }
+
+  @media only screen and (max-width: 474px) {
+    .nav-head{
+        font-size: 19px;
+    }
+  }
+
+  @media only screen and (max-width: 411px) {
+    .welcome{
+        font-size: 38px;
+    }
+
+    .share-det{
+        font-size: 15px
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .welcome{
+        font-size: 35px;
+    }
+
+    .share-det{
+        font-size: 14px
+    }
+  }
+
+  @media only screen and (max-width: 414px) {
+    .welcome{
+        font-size: 33px;
+    }
+
+    .share-det{
+        font-size: 14px
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .welcome{
+        font-size: 31px;
+    }
+
+    .share-det{
+        font-size: 12px
+    }
+  }
+
